@@ -4,7 +4,8 @@ import androidx.core.graphics.convertTo
 
 fun main(){
 
-    var daisy = Dog()
+    var daisy = Dog("Cao", "German Shepperd")
+    println("${daisy.name} is a ${daisy.breed}")
 }
 
 fun add(num1:Int, num2:Int):Int{

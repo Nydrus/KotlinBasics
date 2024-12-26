@@ -1,10 +1,10 @@
 package eu.develop.functions
 
-class Dog {
+class Dog (val name:String, val breed:String) {
     init{
-        Bark()
+        bark(name)
     }
-    fun Bark(){
+    fun bark(name: String){
 
         println("Woof woof")
     }
